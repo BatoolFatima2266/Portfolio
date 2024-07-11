@@ -1,0 +1,66 @@
+@media (max-width:700px) {
+    html{
+        scroll-behavior: smooth;
+    }
+}
+header {
+    background-color: black;
+    color: wheat;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    z-index:3;
+}
+
+a {
+    display: inline-block;
+    margin-right: 10px; 
+    color: wheat; 
+    text-decoration: none; 
+    padding-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline; 
+    background-color: wheat;
+    color: black;
+}
+main {
+    position: relative; 
+    display: block;
+    margin-top: 60px; 
+    padding: 20px; 
+
+}
+body{
+    background-color: wheat; 
+    margin:0;
+}
+h2{
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+
+}
+#div-style{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 10px;
+}
+#div-inner{
+    border: 2px solid wheat;
+    padding: 10px;
+    background-color: black;
+    box-shadow:5px 5px 5px black;
+    color: wheat;
+}
+#interests #div-inner,#contact #div-inner{
+   margin: 0 35% 0 35%;
+}
+ 
+
